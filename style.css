@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(40, 46, 39);
+}
+
+#container{
+    width: 1000px;
+    height: 1000px;
+    background-color: honeydew;
+    margin: 100px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}

@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-        <button id="goToClock" onclick="GoTo('clock/index.html')">go to clock</button>
+
+<div id="container">
+    
+    <h1>This is my Wardrobe!</h1>
+
+    <p>Feel free to look around</p>
+        <a id="clockUrl" href="clock/clock.html">Go to the clock</a><br>
+
+        <a id="tipCalcUrl" href="tipCalculator/tipCalculator.html">go to tip calculator</a>
 
 
+</div>
 
-        <script>
-            function GoTo(location)
-            {
-                let url = window.location.href;
-
-                console.log(url);
-
-                url = url.replace("index.html","");
-                open(url + location);
-                close();
-            }
+ 
 
 
-        </script>
-</body>
+        
+
 </html>
