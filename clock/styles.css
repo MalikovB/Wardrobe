@@ -1,0 +1,32 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+img{
+    margin-left: 21%;
+    max-width: 1000px;
+    max-height: 1000px;
+    min-width: 1000px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+margin-left: 800px;
+}
