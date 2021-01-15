@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js" charset="utf-8"></script>
+</head>
+
+<a href="../index.html">Go Back To Wardrobe</a>
+
+<div id="container">
+
+<h1>Tip Calculator</h1>
+
+
+<div id="calculator">
+    <form>
+        <p>How much is your bill?</p>
+        <input id="bill" type="text">
+
+        <p>How was your service?</p>
+
+        <select name="option" id="service">
+            <option value="1">I need my money, 0%</option>
+            <option value="1.20">Great, 20%</option>
+            <option value="1.15">Good, 15%</option>
+            <option value="1.10">Alright, 10%</option>
+            <option value="1.05">Bad, 5%</option>
+            <option value="1.025">Terrible, 2.5%</option>
+
+        </select>
+
+        <input id="customTip" type="text" placeholder="Custom Tip">
+
+        <p>Number of People:</p>
+        <input id="people" type="text"><br><br>
+
+        <button id="calc" type="button" onclick="calcBill()">Calculate!</button>
+
+        <p>Final Bill:</p>
+        <h2 id="finalBill"></h2>
+
+    </form>
+</div>
+
+
+</div>
+
+
+</html>

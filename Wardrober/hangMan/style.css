@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: rgb(162, 193, 250);
+}
+
+.game{
+    width: 90%;
+
+    margin-left: 5%;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+
+}
+
+.letter{
+    padding: 0.5%;
+    height: 50%;
+    width: 2.5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+    margin: 1%;
+
+    position: relative;
+
+    transition: background .5s;
+
+
+}
+
+.header{
+    background-color: rgb(120, 138, 236);
+}
+
+h1{
+    font-size: 6vh;
+}
+
+h2{
+    font-size: 4vh;
+}
+
+h4{
+    font-size: 6vh;
+    line-height: 0%;
+}
+
+h5{
+    font-size: 4vh;
+    line-height: 0%;
+}
+
+h6{
+    font-size: 4vh;
+    line-height: 0%;
+}
+
+p{
+    position: relative;
+    top: -45%;
+    font-size: 3vh;
+}
